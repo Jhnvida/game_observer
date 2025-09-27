@@ -4,5 +4,6 @@
     >
         <Header />
         <Content />
+        <Footer />
     </div>
 </template>

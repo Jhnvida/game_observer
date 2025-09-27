@@ -1,5 +1,5 @@
 <template>
-    <div class="grid grid-cols-2 p-5 border border-[#222] items-center">
+    <div class="grid grid-cols-2 p-5 border-b border-[#222] items-center">
         <p class="text-sm text-left font-semibold">de_dust2</p>
 
         <div class="text-right">
