@@ -10,12 +10,12 @@
                 </p>
             </div>
 
-            <div class="grid grid-cols-1 gap-2 mt-5">
+            <div class="grid grid-cols-1 gap-2 mt-5 overflow-y-auto">
                 <div
                     v-for="player in players.filter(
                         (player) => player.team == 0,
                     )"
-                    class="grid grid-cols-2 items-center bg-[#1a1a1a] p-5 border border-[#222]"
+                    class="grid grid-cols-2 items-center bg-[#1a1a1a] p-4 border border-[#222] rounded"
                 >
                     <div class="flex flex-col gap-1 text-left">
                         <p class="text-sm font-semibold">{{ player.name }}</p>
@@ -54,12 +54,12 @@
                 </p>
             </div>
 
-            <div class="grid grid-cols-1 gap-2 mt-5">
+            <div class="grid grid-cols-1 gap-2 mt-5 overflow-y-auto">
                 <div
                     v-for="player in players.filter(
                         (player) => player.team == 1,
                     )"
-                    class="grid grid-cols-2 items-center bg-[#1a1a1a] p-5 border border-[#222]"
+                    class="grid grid-cols-2 items-center bg-[#1a1a1a] p-4 border border-[#222] rounded"
                 >
                     <div class="flex flex-col gap-1 text-left">
                         <p class="text-sm font-semibold">{{ player.name }}</p>

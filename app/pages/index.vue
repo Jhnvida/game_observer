@@ -1,6 +1,6 @@
 <template>
     <div
-        class="w-full max-w-3/5 min-h-3/5 flex flex-col bg-[#111] border border-[#222]"
+        class="w-full max-w-5xl h-5/6 flex flex-col bg-[#111] border border-[#222] rounded"
     >
         <Header />
         <Content />
